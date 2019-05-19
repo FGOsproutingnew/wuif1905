@@ -1,11 +1,13 @@
 @import "base.css";
 header{
     color: #4ebbfe;
-    height: 0.36rem;
-    line-height: 0.36rem;
-    text-align: center ;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
     font-size: 0.38rem;
-    margin-top: 0.32rem;
 }
 header a{
     color: #4ebbfe;
@@ -15,8 +17,11 @@ header  .iconfont{
 }
 
 .order{
+    height: 0.88rem;
+    padding: 0 0.22rem;
     display: flex;
-    margin-top: 0.32rem;
+    /*margin-top: 0.32rem;*/
+    box-sizing: border-box;
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
